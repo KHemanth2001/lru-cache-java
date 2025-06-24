@@ -13,6 +13,27 @@ This project implements a **Least Recently Used (LRU) Cache** in Java using **Ha
 - **HashMap** for fast key-based access.
 - **Doubly Linked List** to track order of usage.
 
+⚙️ How to Run
+🖥️ Prerequisites
+Java 8 or higher installed
+
+A Java IDE (like IntelliJ / VS Code) or terminal/command line
+
+🧪 Running from Terminal
+1. Clone the repository:
+```bash
+git clone https://github.com/<your-username>/lru-cache-java.git
+cd lru-cache-java
+```
+2. Compile the files:
+```bash
+javac LRUCache.java Main.java
+```
+3. Run the program:
+```bash
+java Main
+```
+
 ## 🧪 Example Usage
 
 ```java
@@ -24,20 +45,3 @@ cache.get(1);      // returns 10, cache = {1=10, 2=20}
 cache.put(3, 30);  // evicts key 2, cache = {3=30, 1=10}
 
 
-⚙️ How to Run
-🖥️ Prerequisites
-Java 8 or higher installed
-
-A Java IDE (like IntelliJ / VS Code) or terminal/command line
-
-🧪 Running from Terminal
-    1. Clone the repository:
-
-    git clone https://github.com/<your-username>/lru-cache-java.git
-    cd lru-cache-java
-
-    2. Compile the files:
-    javac LRUCache.java Main.java
-
-    3. Run the program:
-    java Main
